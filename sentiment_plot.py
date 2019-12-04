@@ -7,10 +7,10 @@ import matplotlib.pyplot as plt
 
 
 df = DataFrame(columns=['text', 'retweetcount','sentiment']) ;
-consumer_key = 'uuKwrsAgE07av41NlJpS97B3O';
-consumer_secret = 'roaxCn72llftfBji6UT7OtQ0zVa8dfVWSsmpcoZIRrSfUGZ4C0';
-access_token = '140781874-8sdpMUBqcYRCmEWEdAWpsVh02tNQ4GFIveZQNJmU';
-access_token_secret = '13JxnWad8Zvf7A9HLlwKAPEglYLpKUQ1toBWPmvwiLaQW';
+#consumer_key = Enter consumer key
+#consumer_secret = Enter consumer secret
+#access_token = Enter access token
+#access_token_secret = Enter access token secret
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
